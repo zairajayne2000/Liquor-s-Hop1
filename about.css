@@ -1,0 +1,129 @@
+body {
+	text-align: center;
+	color: #000;
+	background-color: peachpuff;
+	background-size: cover;
+	font-family: courier new;
+	
+}
+.facebook {
+	width: 20%;
+	padding: 20px;
+	color: white;
+	margin-left: 78%;
+	margin-top: 43px;
+	position: absolute;
+}
+
+.instagram {
+	width: 20%;
+	padding: 20px;
+	color: white;
+	margin-left: 82%;
+	margin-top: 43px;
+	position: absolute;
+}
+
+.twitter {
+	width: 20%;
+	padding: 20px;
+	color: white;
+	margin-left: 86%;
+	margin-top: 43px;
+	position: absolute;
+}
+ 
+/* MAIN HEADER SECTION */
+.main-header {
+	margin-bottom: 50px;
+}
+
+/* SHOWCASE SECTION */
+.showcase {
+	margin-bottom: 10px;
+	border: 10px solid;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f6280
+}
+
+/* MAIN ARTICLE SECTION */
+.main-article {
+	color: black;
+	margin-bottom: 10px;
+	border: solid;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}
+/* MAIN ARTICLE LEFT*/
+.main-article-left {
+	background-color: khaki;
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 5px #9f8260;
+	font-size: 20px;
+}
+.main-article-left p{
+	margin: 20px 0 30px 0;
+}
+.main-article-left h3 {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.main-article-right {
+	color: fuschia;
+	background: salmon;
+}
+.main-article-right h4 {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.main-article-right p {
+	margin: 20px 0 30px 0;
+	font-size: 20px;
+	
+}
+
+/* FOOTER SECTION */
+.footer {
+	padding: 5px;
+	color: black;
+	margin-bottom: 10px;
+	border: 5px solid;
+	background-image: url(../images/.jpg);
+	background-repeat: repeat;
+}
+
+
+
+.button {
+	background: black;
+	color: white;
+	padding: 5px 15px;
+	font-family: broadway;
+	font-size: 20px;
+	margin: 10px;
+}
+.button:hover {
+   background: gray;
+   color: black;
+   border: 5px #000 solid;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(5,1fr);
+	
+}
+
+a {
+	text-decoration: none;
+}
